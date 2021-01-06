@@ -58,11 +58,8 @@ return sum;
 
 function removeFromCart(item) {
   if (true) {
-    for (var key in cart) {
-      if (cart[key] === item) {
-          delete cart[key];
+    delete cart.`${item}`
       }
-    return cart;
     }
   } else {
     "That item is not in your cart.";

@@ -56,11 +56,17 @@ return sum;
 
 
 
-
-
-
 function removeFromCart(item) {
-  // write your code here
+  if (true) {
+    for (var key in cart) {
+      if (cart[key] === item) {
+          delete cart[key];
+      }
+    return cart;
+    }    
+  } else {
+    "That item is not in your cart.";
+  }
 }
 
 function placeOrder(cardNumber) {

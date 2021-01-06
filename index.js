@@ -57,7 +57,7 @@ return sum;
 
 
 function removeFromCart(item) {
-  if (true) {
+  if (item == cart[key]) {
     delete cart.item;
     return cart;
       }
